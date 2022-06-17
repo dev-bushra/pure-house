@@ -1,0 +1,468 @@
+/* reset */
+* {
+    font-family: 'Oswald', 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* default setup */
+/* .wrapper {} */
+/* container {} */
+section {
+    padding: 20xp;
+}
+
+/* green header */
+header.header {
+    position: relative;
+    background-color: #398F3B;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+header .topHeader {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+header .topHeader .email {
+    color: white;
+}
+header .topHeader .soicialIcons {
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+header .topHeader .soicialIcons .fab {
+    margin-right: 10px;
+}
+
+/* navbar */
+.navbar {
+    background-color: #F8F7F782;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav img {
+    padding: 10px 20px 10px 40px;
+    align-content: flex-start;
+}
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul.navList {
+    display: inline-block;
+}
+nav ul.navList li.navItem {
+    padding: 45px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+nav ul.navList li.navItem a{
+    color: #3F9454;
+}
+nav .waBtn {
+    display: inline-block;
+    padding: 20px 50px;
+    background: #8e6a18;
+    box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 50%);
+    border-radius: 8px;
+    color: white;
+}
+nav .navMenuArrow {
+    font-size: 9px;
+    color: #3F9454;
+}
+
+/* banner */
+section.banner{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+section.banner div.wrapper {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700;
+    width: 100%;
+}
+section.banner .bannerTitle h1{
+    padding-top: 150px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Oswald", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+section.banner .bannerTitle p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+section.banner .searchBtnContainer {
+    margin-top: 60px;
+}
+section.banner .searchBtn {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    color:white;
+    cursor: pointer;
+    background: #398F3B;
+    border: 1px solid #8e6a18;
+    padding: 15px 50px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+/* servics box */
+section.banner .servicesBoxs {
+    padding: 50px;
+    display: flex;
+    font-size: medium;
+    width: 90%;
+    position: absolute;
+    top: 586px;
+}
+section.banner .box {
+    background-color: #398F3B;
+    border: 3px solid #398F3B;
+    border-radius: 6px;
+    color: white;
+    margin: 10px;
+    padding: 30px 5px;
+    width: 30%;
+}
+section.banner .box .boxIcon {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    font-size: medium;
+}
+a.boxTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+}
+a.boxTitle h3, a.boxTitle i{
+    color: white;
+    font-size: 22px;
+}
+
+/* section-1 */
+.section-1 {
+    padding-top: 150px;
+}
+.section-1 .title h1 {
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.section-1 .title p {
+    color: gray;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-1 .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.section-1 .card {
+    border-radius: 10px;
+    width: 25%;
+    position: relative;
+    background-color: #4e4e4e;
+    overflow: hidden;
+}
+.section-1 img.cardImg {
+    width: 100%;
+    opacity: 0.5;
+    overflow: hidden;
+}
+.section-1 h1.cardTitle {
+    position: absolute;
+    color: white;
+    top: 71px;
+    /* z-index: 1; */
+    left: 112px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+
+/* section-2 */
+.section-2 .title h1 {
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.section-2 .title p {
+    color: gray;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-2 .houses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-2 .houseCard {
+    background-color: lavender;
+    border-radius: 9px;
+    width: 250px;
+}
+.section-2 .houseCard img {
+    width: 250px;
+    border-radius: 9px;
+}
+.section-2 .houseCard h3 {
+    padding: 25px 0 5 20px;
+}
+.section-2 .houseCard span {
+    padding: 5px 20px;
+    color: green;
+    font-weight: 600;
+    
+}
+.section-2 .houseCard p {
+    padding: 25px 20px;
+    font-weight:lighter;
+    width: 90%;
+}
+.section-2 .houseCard input {
+    padding: 5px 20px;
+    margin-left: 20px;
+    
+    color: lavender;
+    background: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* section-3 */
+.section-3 .container {
+    background: url(img/bk\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 90;
+    margin-top: 90px;
+}
+.section-3 .container h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.section-3 .container p {
+    font-size: normal;
+    font-weight:400;
+    padding: 20px 0;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.section-3 .container a {
+    border-radius: 9px;
+    padding-top: 18px;
+    padding-right: 34px;
+    padding-bottom: 18px;
+    padding-left: 34px;
+    font-family: "Averia Serif Libre", Sans-serif;
+    font-size: 13px;
+    fill: #000000;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/* section-4 */
+.section-4 {
+    margin: 50px;
+}
+.section-4 .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.section-4 .col-1 img {
+    width: 550px;
+    margin: 30px;
+}
+.section-4 .col-1 p {
+    margin: 5px 30px;
+    font-size: 14;
+    color: gray;
+    margin-bottom: 30px;
+}
+.section-4 .col-1 a {
+    color: white;
+    background: green;
+    padding: 10px 30px;
+    border: 1 solid green;
+    border-radius: 9px;
+    margin: 30px;
+}
+.section-4 .col-2 img {
+    width: 550px;
+    margin: 30px;
+}
+.section-4 .col-2 p {
+    margin: 5px 30px;
+    font-size: 14;
+    color: gray;
+    margin-bottom: 30px;
+}
+.section-4 .col-2 h3 {
+    margin: 30px 0 10px 30px;
+    color: gray;
+}
+
+/* section-5 */
+.section-5 {
+    margin-top: 100px;
+}
+.section-5 .sidTitle {
+    padding: 20px 80px;
+}
+.section-5 .sidTitle p {
+    width: 60%;
+    color: gray;
+    padding-top: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.section-5 .sidTitle a {
+    width: 60%;
+    color: white;
+    background: green;
+    padding: 10px 30px;
+    border: 1 solid green;
+    border-radius: 9px;
+    margin-bottom: 50px;
+}
+.section-5 img {
+    width: 20%;
+    position: relative;
+    top: -200px;
+    left: 940px;
+    opacity: 50%;
+}
+.section-5 img::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/* section-6 */
+.section-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a9a9a9;
+    color: white;
+}
+.section-6 img {
+    width: 40%;
+}
+.section-6 .sidTitle {
+    padding: 30px 90px;
+}
+.section-6 .sidTitle h1 {
+    font-size: xxx-large;
+}
+.section-6 .sidTitle p {
+    padding-top: 30px;
+}
+
+/* logos */
+.logos {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logos img {
+    width: 5%;
+}
+
+/* contact */
+.contact {
+    width: 100%;
+}
+.contact .wrapper {
+    background-color: #f6f6f6;
+}
+.contact h3 {
+    color: black;
+    font-size: xxx-large;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+form {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: small;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+form textarea{
+    width: 595px;
+    height: 100px;
+    color: #222222;
+    font-size: small;
+    text-align: left;
+    padding: 10px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding: 20;
+    background: #a9a9a9;
+    font-size: small;
+    text-align: center;
+    color: white;
+}
